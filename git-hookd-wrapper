@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # This is a simple script that allows you to create *.d style folders to run multiple scripts for a given hook
+# This will not work for hooks which read from stdin, like pre-receive
 # Usage (If you are wanting to install it for pre-commit):
 #   cd myproject/.git/hooks
 #   mkdir pre-commit.d
